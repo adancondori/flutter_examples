@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_examples/conection/database.dart';
 import 'package:flutter_examples/models/person.dart';
 import 'package:flutter_examples/ui/edit_person.dart';
+import 'package:flutter_examples/ui/pokemon.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: MyHomePage(),
+      home: PokeminAPI(),
     );
   }
 }
